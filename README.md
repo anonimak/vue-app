@@ -19,3 +19,4 @@ npm run build
 See [Configuration Reference](https://cli.vuejs.org/config/).
 
 ------------
+Untuk belajar dari nol [fromnull](https://github.com/anonimak/vue-app/blob/main/FROMNULL.md "disini")
