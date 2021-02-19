@@ -44,38 +44,56 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 	```
 	Akan muncul tampilan seperti ini, terdapat beberapa opsi untuk hal ini kita pilih `Manual select features`
 
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=140%25&si=false&es=2x&wm=false&code=Vue%2520CLI%2520v4.5.11%250A%253F%2520Please%2520pick%2520a%2520preset%253A%250A%2520%2520Default%2520%28%255BVue%25202%255D%2520babel%252C%2520eslint%29%250A%2520%2520Default%2520%28Vue%25203%2520Preview%29%2520%28%255BVue%25203%255D%2520babel%252C%2520eslint%29%250A%253E%2520Manually%2520select%2520features"
-  style="width: 549px; height: 240px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin"></iframe>
+  ```bash
+    Vue CLI v4.5.11
+    ? Please pick a preset:
+      Default ([Vue 2] babel, eslint)
+      Default (Vue 3 Preview) ([Vue 3] babel, eslint)
+    > Manually select features
+  ```
 
 	Untuk sementara kita hanya centang `Choose Vue version`
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=140%25&si=false&es=2x&wm=false&code=Vue%2520CLI%2520v4.5.11%250A%253F%2520Please%2520pick%2520a%2520preset%253A%2520Manually%2520select%2520features%250A%253F%2520Check%2520the%2520features%2520needed%2520for%2520your%2520project%253A%250A%253E%28*%29%2520Choose%2520Vue%2520version%250A%2520%28%2520%29%2520Babel%250A%2520%28%2520%29%2520TypeScript%250A%2520%28%2520%29%2520Progressive%2520Web%2520App%2520%28PWA%29%2520Support%250A%2520%28%2520%29%2520Router%250A%2520%28%2520%29%2520Vuex%250A%2520%28%2520%29%2520CSS%2520Pre-processors%250A%2520%28%2520%29%2520Linter%2520%252F%2520Formatter%250A%2520%28%2520%29%2520Unit%2520Testing%250A%2520%28%2520%29%2520E2E%2520Testing"
-  style="width: 549px; height: 432px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+  ```
+    Vue CLI v4.5.11
+    ? Please pick a preset: Manually select features
+    ? Check the features needed for your project:
+    >(*) Choose Vue version
+    ( ) Babel
+    ( ) TypeScript
+    ( ) Progressive Web App (PWA) Support
+    ( ) Router
+    ( ) Vuex
+    ( ) CSS Pre-processors
+    ( ) Linter / Formatter
+    ( ) Unit Testing
+    ( ) E2E Testing
+  ```
 
 	Disini kita akan menggunakan yang versi 2.x
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=140%25&si=false&es=2x&wm=false&code=Vue%2520CLI%2520v4.5.11%250A%253F%2520Please%2520pick%2520a%2520preset%253A%2520Manually%2520select%2520features%250A%253F%2520Check%2520the%2520features%2520needed%2520for%2520your%2520project%253A%2520Choose%2520Vue%2520version%250A%253F%2520Choose%2520a%2520version%2520of%2520Vue.js%2520that%2520you%2520want%2520to%2520start%2520the%2520project%2520with%2520%28Use%2520arrow%2520keys%29%250A%253E%25202.x%250A%2520%25203.x%2520%28Preview%29"
-  style="width: 549px; height: 360px; 9px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-	</iframe>
+  ```
+    Vue CLI v4.5.11
+    ? Please pick a preset: Manually select features
+    ? Check the features needed for your project: Choose Vue version
+    ? Choose a version of Vue.js that you want to start the project with (Use arrow keys)
+    > 2.x
+      3.x (Preview)
+  ```
 	
 	Silahkan anda pilih letak config untuk Babel, ESlint, dll berada. Kalau saya lebih suka saya taruh di package.json
-  <iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=application%2Fx-sh&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=140%25&si=false&es=2x&wm=false&code=%253F%2520Where%2520do%2520you%2520prefer%2520placing%2520config%2520for%2520Babel%252C%2520ESLint%252C%2520etc.%253F%250A%2520%2520In%2520dedicated%2520config%2520files%250A%253E%2520In%2520package.json"
-  style="width: 549px; height: 281px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-	</iframe>
+  ```
+    ? Where do you prefer placing config for Babel, ESLint, etc.?
+    In dedicated config files
+    > In package.json
+  ```
 	
 	Setelah semua instalasi selesai, kita bisa berpindah ke direktori project yang sudah dibuat dan run project dengan perintah seperti dibawah ini:
-	<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=140%25&si=false&es=2x&wm=false&code=cd%2520vue-app%250A%250Anpm%2520run%2520serve%250A%2523%2520or%250Ayarn%2520serve"
-  style="width: 549px; height: 281px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-	</iframe>
+	```
+    cd vue-app
+
+    npm run serve
+    # or
+    yarn serve
+  ```
 	
 	Pada titik ini kita sudah selesai mempersiapkan semua yang dibutuhkan untuk membangun Vue aplikasi. jangan lupa tambahkan plugin Vetur untuk formatter dan highlight pada text editor anda dan juga install ekstensi Vue Devtools untuk memberi informasi tentang *components* - *state, method, data,* dll ketika anda *running* vue pada browser anda.
 
@@ -85,11 +103,16 @@ Selamat kita sudah me-setting Vue boilerplate app. di projek ini terdapat `publi
 
 ## Titik Awal
 Pada `main.js` disini membawa Vue dan *redering* App ke app div pada `index.html`. File ini tidak butuh diubah.
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=javascript&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=140%25&si=false&es=2x&wm=false&code=import%2520Vue%2520from%2520%27vue%27%250Aimport%2520App%2520from%2520%27.%252FApp.vue%27%250A%250AVue.config.productionTip%2520%253D%2520false%250A%250Anew%2520Vue%28%257B%250A%2520%2520render%253A%2520function%2520%28h%29%2520%257B%2520return%2520h%28App%29%2520%257D%252C%250A%257D%29.%2524mount%28%27%2523app%27%29"
-  style="width: 700px; height: 337px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+```javascript
+  import Vue from 'vue'
+  import App from './App.vue'
+
+  Vue.config.productionTip = false
+
+  new Vue({
+    render: function (h) { return h(App) },
+  }).$mount('#app')
+```
 
 ## Anatomi Vue
 Ketika kita akan membuat suatu file `.vue`, selalu terdapat 3 tag yang pasti yaitu:
@@ -97,21 +120,34 @@ Ketika kita akan membuat suatu file `.vue`, selalu terdapat 3 tag yang pasti yai
 - `<script>`
 - `<style>`
 
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=vue&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=140%25&si=false&es=2x&wm=false&code=%253Ctemplate%253E%253C%252Ftemplate%253E%250A%250A%253Cscript%253E%250A%2520%2520export%2520default%2520%257B%250A%2520%2520%2520%2520name%253A%2520%27nama-komponen%27%252C%250A%2520%2520%257D%250A%253C%252Fscript%253E%250A%250A%253Cstyle%2520scoped%253E%253C%252Fstyle%253E"
-  style="width: 700px; height: 356px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+```vue
+  <template></template>
+
+  <script>
+    export default {
+      name: 'nama-komponen',
+    }
+  </script>
+
+  <style scoped></style>
+```
 
 Setiap data logic pada setiap komponen akan berada pada tag `<script>`, seperti kita tahu `<style>` hanya digunakan untuk CSS, kita juga bisa gunakan `scoped` untuk mengaplikasikan style tersebut tidak secara global.
 
 Karena tujuan dari pembelajaran kali ini adalah tentang fungsionalitas, bukan soal *styling*, saya akan menambahkan secara cepat `Skeleton` framework CSS pada `public/index.html` file untuk lebih memudahkan dalam *styling*.
 
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=htmlmixed&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=140%25&si=false&es=2x&wm=false&code=%253C%21DOCTYPE%2520html%253E%250A%253Chtml%2520lang%253D%2522%2522%253E%250A%2520%2520%253Chead%253E%250A%2509%253C%21--%2520....%2520isi%2520header%2520--%253E%250A%2520%2520%2520%2520%253Clink%2520rel%253D%2522stylesheet%2522%2520href%253D%2522https%253A%252F%252Fcdnjs.cloudflare.com%252Fajax%252Flibs%252Fskeleton%252F2.0.4%252Fskeleton.min.css%2522%253E%250A%2520%2520%253C%252Fhead%253E%250A%2520%2520%253Cbody%253E%250A%2520%2520%2520%2520%253C%21--%2520....%2520isi%2520body%2520--%253E%250A%2520%2520%253C%252Fbody%253E%250A%253C%252Fhtml%253E"
-  style="width: 700px; height: 375px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+```vue
+  <!DOCTYPE html>
+  <html lang="">
+    <head>
+    <!-- .... isi header -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    </head>
+    <body>
+      <!-- .... isi body -->
+    </body>
+  </html>
+```
 
 Putar musik lo-fi 🎧 dan mulai memasak 👨‍🍳.
 
@@ -120,21 +156,71 @@ Putar musik lo-fi 🎧 dan mulai memasak 👨‍🍳.
 
 Buat file dengan nama `MahasiswaTable.vue` du `src/components`. Kita akan membuat tabel dengan beberapa data statik seperti dibawah ini.
 
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=vue&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=140%25&si=false&es=2x&wm=false&code=%253Ctemplate%253E%250A%2520%2520%253Cdiv%2520id%253D%2522mhs-table%2522%253E%250A%2520%2520%2520%2520%253Ctable%2520class%253D%2522u-full-width%2522%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Cthead%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cth%253ENama%253C%252Fth%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cth%253ENo%2520Induk%2520Mahasiswa%253C%252Fth%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Cth%253EEmail%253C%252Fth%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ftr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Fthead%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253Ctbody%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctd%253EJonatan%2520Teofilus%253C%252Ftd%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctd%253E6876879890%253C%252Ftd%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctd%253Ejonatan.teofilus%2540gmail.com%253C%252Ftd%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ftr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctd%253EDwayne%2520Johnson%253C%252Ftd%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctd%253E0978769767%253C%252Ftd%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253Ctd%253Edwayne150%2540gmail.com%253C%252Ftd%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ftr%253E%250A%2520%2520%2520%2520%2520%2520%2520%2520%253C%252Ftbody%253E%250A%2520%2520%2520%2520%253C%252Ftable%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Ftemplate%253E%250A%250A%253Cscript%253E%250Aexport%2520default%2520%257B%250A%2509name%253A%2520%27mahasiswa-table%27%252C%250A%257D%250A%253C%252Fscript%253E%250A%250A%253Cstyle%2520scoped%253E%250A%250A%253C%252Fstyle%253E"
-  style="width: 700px; height: 848px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+```vue
+  <template>
+    <div id="mhs-table">
+      <table class="u-full-width">
+          <thead>
+              <tr>
+              <th>Nama</th>
+              <th>No Induk Mahasiswa</th>
+              <th>Email</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+              <td>Jonatan Teofilus</td>
+              <td>6876879890</td>
+              <td>jonatan.teofilus@gmail.com</td>
+              </tr>
+              <tr>
+              <td>Dwayne Johnson</td>
+              <td>0978769767</td>
+              <td>dwayne150@gmail.com</td>
+              </tr>
+          </tbody>
+      </table>
+    </div>
+  </template>
+
+  <script>
+    export default {
+      name: 'mahasiswa-table',
+    }
+  </script>
+
+  <style scoped>
+
+  </style>
+```
 
 Di Vue, import nama file akan menjadi PascalCase, seperti `MahasiswaTable` tapi ketika komponen tersebut digunakan pada `<template>`, akan berubah menjadi kebab-case, `<mahasiswa-table>`. Hal ini supaya kita bisa mengenali konvensi untuk masing-masing javascript dan HTML.
 
 Kita export `mahasiswaTable` dan import ke `App.vue`. Pada waktu me-import, kita bisa menggunakan `@` sebagai referensi `src` folder. App.vue mengenali dan komponen tersebut bisa digunakan melalui `components` property. Jadi semua komponen yang dibutuhkan dalam satu `.vue` harus ditambahkan disana.
 
-<iframe
-  src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=vue&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=false&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=140%25&si=false&es=2x&wm=false&code=%253Ctemplate%253E%250A%2520%2520%253Cdiv%2520id%253D%2522app%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522container%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Ch1%253EMahasiswa%253C%252Fh1%253E%250A%2520%2520%2520%2520%2520%2520%253Cmahasiswa-table%252F%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Ftemplate%253E%250A%250A%253Cscript%253E%250Aimport%2520MahasiswaTable%2520from%2520%27%2540%252Fcomponents%252FMahasiswaTable.vue%27%250Aexport%2520default%2520%257B%250A%2520%2520name%253A%2520%27App%27%252C%250A%2520%2520components%253A%2520%257B%250A%2520%2520%2520%2520MahasiswaTable%250A%2520%2520%257D%250A%257D%250A%253C%252Fscript%253E%250A%250A%253Cstyle%2520scoped%253E%250A%253C%252Fstyle%253E%250A"
-  style="width: 700px; height: 602px; border:0; transform: scale(1); overflow:hidden;"
-  sandbox="allow-scripts allow-same-origin">
-</iframe>
+```vue
+  <template>
+    <div id="app">
+      <div class="container">
+        <h1>Mahasiswa</h1>
+        <mahasiswa-table/>
+      </div>
+    </div>
+  </template>
+
+  <script>
+  import MahasiswaTable from '@/components/MahasiswaTable.vue'
+  export default {
+    name: 'App',
+    components: {
+      MahasiswaTable
+    }
+  }
+  </script>
+
+  <style scoped>
+  </style>
+```
 
 Akan tampil seperti ini:
 ####gambar review
