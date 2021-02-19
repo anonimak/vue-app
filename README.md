@@ -16,6 +16,6 @@ npm run build
 ```
 
 ### Learn From Zero
-Untuk belajar dari nol [di sini](https://github.com/anonimak/vue-app/blob/main/FROMNULL.md "FROMZERO")
+Untuk belajar dari nol [di sini](https://github.com/anonimak/vue-app/blob/main/FROMZERO.md "FROMZERO")
 
 ------------
