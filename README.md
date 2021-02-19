@@ -44,19 +44,19 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 	```
 	Akan muncul tampilan seperti ini, terdapat beberapa opsi untuk hal ini kita pilih `Manual select features`
 
-	<iframe
+<iframe
   src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=140%25&si=false&es=2x&wm=false&code=Vue%2520CLI%2520v4.5.11%250A%253F%2520Please%2520pick%2520a%2520preset%253A%250A%2520%2520Default%2520%28%255BVue%25202%255D%2520babel%252C%2520eslint%29%250A%2520%2520Default%2520%28Vue%25203%2520Preview%29%2520%28%255BVue%25203%255D%2520babel%252C%2520eslint%29%250A%253E%2520Manually%2520select%2520features"
   style="width: 549px; height: 240px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
-	</iframe>
-	
+</iframe>
+
 	Untuk sementara kita hanya centang `Choose Vue version`
-	<iframe
+<iframe
   src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=140%25&si=false&es=2x&wm=false&code=Vue%2520CLI%2520v4.5.11%250A%253F%2520Please%2520pick%2520a%2520preset%253A%2520Manually%2520select%2520features%250A%253F%2520Check%2520the%2520features%2520needed%2520for%2520your%2520project%253A%250A%253E%28*%29%2520Choose%2520Vue%2520version%250A%2520%28%2520%29%2520Babel%250A%2520%28%2520%29%2520TypeScript%250A%2520%28%2520%29%2520Progressive%2520Web%2520App%2520%28PWA%29%2520Support%250A%2520%28%2520%29%2520Router%250A%2520%28%2520%29%2520Vuex%250A%2520%28%2520%29%2520CSS%2520Pre-processors%250A%2520%28%2520%29%2520Linter%2520%252F%2520Formatter%250A%2520%28%2520%29%2520Unit%2520Testing%250A%2520%28%2520%29%2520E2E%2520Testing"
   style="width: 549px; height: 432px; border:0; transform: scale(1); overflow:hidden;"
   sandbox="allow-scripts allow-same-origin">
-	</iframe>
-	
+</iframe>
+
 	Disini kita akan menggunakan yang versi 2.x
 	<iframe
   src="https://carbon.now.sh/embed?bg=rgba%28171%2C+184%2C+195%2C+1%29&t=monokai&wt=none&l=auto&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=56px&ln=false&fl=1&fm=Hack&fs=13.5px&lh=140%25&si=false&es=2x&wm=false&code=Vue%2520CLI%2520v4.5.11%250A%253F%2520Please%2520pick%2520a%2520preset%253A%2520Manually%2520select%2520features%250A%253F%2520Check%2520the%2520features%2520needed%2520for%2520your%2520project%253A%2520Choose%2520Vue%2520version%250A%253F%2520Choose%2520a%2520version%2520of%2520Vue.js%2520that%2520you%2520want%2520to%2520start%2520the%2520project%2520with%2520%28Use%2520arrow%2520keys%29%250A%253E%25202.x%250A%2520%25203.x%2520%28Preview%29"
