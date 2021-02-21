@@ -645,8 +645,6 @@ Kita telah selesai menghapus item mahasiswa.
 
 # Edit item
 
-Editing is a little more complex than deleting. The setup from App.vue is simple though, so we'll do that first. Just add the edit:employee event that we'll be making:
-
 Edit data seding lebih *tricky* dibandingkan dengan delete. Hal pertama yang dilakukan yaitu kita tambah event `edit:mahasiswa` dan kita juga buatkan method untuk menghadle event tersebut dengan nama `editMahasiswa` sama seperti delete.
 
 ```vue
